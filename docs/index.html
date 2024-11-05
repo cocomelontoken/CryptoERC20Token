@@ -12,8 +12,17 @@
         body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    font-family: cursive;
+    background-color: #f0f0f0;
     background-image: url(' https://i.ibb.co/NNhhgT3/973a1e0d8de3.jpg'); background-size: cover; background-position: center; justify-content: center; align-items: center;
+}
+.default-block-color {
+  display: block;        /* Ensures it's a block-level element */
+  /* background-color: #ffffff;
+  border-radius: 5px;  Replace with your desired color */
+  padding: 20px;         /* Optional: adds some padding for spacing */
+  margin: 10px 0;        /* Optional: adds margin for separation from other elements */
 }
 .content { background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; text-align: center; }
 
@@ -22,12 +31,12 @@
     text-align: center;
     padding-top: 20%;
 }
-        body {
-    font-family: Arial, sans-serif;
+        /* body {
+    font-family: cursive;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-}
+} */
 
 header {
     background-color: #2875bdc9;
@@ -65,19 +74,24 @@ h2 {
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    /* list-style-type: none;
+    padding: 0; */
+    display: flex;
+            /* border-radius: 5px; */
+            list-style-type: none;
+            padding: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0;
+}
+li a {
+ text-decoration: none;
 }
 
-ul li {
-    background-color: #e2e2e2;
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    border-radius: 5px;
-}
+
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: cursive;
             background-color: #2d2d2d;
             color: #f0f0f0;
             margin: 0;
@@ -128,14 +142,70 @@ ul li {
         .link-color {
             color:  white;
         }
+        /* .ulist {
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 5px;
+        } */
+        .width100 {
+            width: 100%;
+        }
+        .width50 {
+            width: 50%;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            text-align: end;
+        }
+        .cocoHeader {
+            width: 65%;
+            text-align: end;
+        }
+        .coco-header-links {
+            width: 50%;
+            justify-items: end;
+            margin-right: 2%;
+        }
+        .coco-links {
+            display: flex;
+            justify-content: center;
+        }
+        .twitter-link {
+            background-color: black;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>CoComelonToken</h1>
+        <div class="header">
+            <h1 class="cocoHeader">CoComelonToken</h1>
+            <div class="coco-header-links" class="elementor-element elementor-element-b26653f elementor-icon-list--layout-inline elementor-align-center elementor-widget__width-inherit elementor-hidden-tablet elementor-hidden-mobile elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b26653f" data-element_type="widget" data-widget_type="icon-list.default">
+                    <ul>
+                        <li>
+                            <a href="https://t.me/infoCoComelon" target="_blank">
+                                <span class="default-block-color">Telegram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/cocomelonETH" target="_blank">
+                                <span class="default-block-color">X</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xbe766a01117e387d71075337ae843351684735ee?t=1730559099026" target="_blank">
+                                <span class="default-block-color">Dextools</span>
+                            </a>
+                        </li>
+                    </ul>
+                
+            </div>
+        </div>
+        
     </header>
     <div class = "container">
         <header>
+            <h2>ABOUT COCOMELON</h2>
     <div class="center">
         <p class="link-color">On September 1, 2006, Cocomelon was created on YouTube under the username "checkgate", a month before Google acquired YouTube</p></br>
     </div>
@@ -156,7 +226,7 @@ ul li {
     </div>
     <div class="container">
         <header>
-            <h1>Tokenomics</h1>
+            <h2>Tokenomics</h2>
            <p>Ticket - CMT</p>
            <p>Supply 9000000000000</p>
            <p>Tax 0% Buy 0% Sell</p>
@@ -166,16 +236,77 @@ ul li {
     </div>
     <div class = "container">
         <header>
+            <h2>HOW TO BUY $COCOMELONTOKEN</h2>
+    <div>
+        <h3>1. CREATE A WALLET</h3>
+        <p>Download UNISWAP app in playstore or android and connect to metamask or trustwallet and swap eth to $COCOMELONTOKEN</p>
+    </div>
+    <div>
+        <h3>2. GO TO UNISWAP</h3>
+        <p>Connect to UNISWAP. Go to UNISWAP in google chrome or on the browser. Connect your wallet. Paste the $COCOMELONTOKEN token address into UNISWAP, select $COCOMELONTOKEN, and confirm. When prompts you for a wallet signature, sign.</p>
+    </div>
+    <div>
+        <h3>3. More exchanges incomming </h3>
+        <p>Stay tuned we are comming with big updates</p>
+    </div>
+    </div>
+    <div class = "container">
+        <header>
         <h1>Socials</h1>
-    <div class="center">
+        <div class="coco-links" class="elementor-element elementor-element-b26653f elementor-icon-list--layout-inline elementor-align-center elementor-widget__width-inherit elementor-hidden-tablet elementor-hidden-mobile elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b26653f" data-element_type="widget" data-widget_type="icon-list.default">
+            <ul>
+                <li class="twitter-link">
+                    <a href="https://x.com/cocomelonETH" target="_blank">
+                        <img decoding="async" width="100" height="100" src="./index-files/TwitterX.jpg" class="elementor-animation-pulse attachment-large size-large wp-image-639" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href=https://www.dextools.io/app/en/ether/pair-explorer/0xbe766a01117e387d71075337ae843351684735ee?t=1730559099026" target="_blank">
+                        <img decoding="async" width="100" height="100" src="./index-files/Dextools.jpg" class="elementor-animation-pulse attachment-large size-large wp-image-1127" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/infoCoComelon" target="_blank">
+                        <img decoding="async" width="100" height="100" src="./index-files/Telegram.jpg" class="elementor-animation-pulse attachment-large size-large wp-image-1128" alt="">
+                    </a>
+                </li>
+            </ul>
+        
+    </div>
+    </header>
+    <!-- <div class="center">
         <a class="link-color" href="https://twitter.com/cocomelonETH" target="_blank">Follow me on Twitter</a>
-    </div> </body><br>
+    </div> <br>
     <div class="center">
         <a class="link-color" href="https://www.dextools.io/app/en/ether/pair-explorer/0xc021688e2498c9994a7407bdc1ff037721bb5adf?t=1730731899615" target="_blank">View My Token on Dextools</a></br>
     </div><br>
     <div  class="center">
         <a class="link-color" href="https://t.me/infoCoComelon" target="_blank" class="telegram-link"> Join our Telegram Channel </a>
+    </div> -->
+    
+<!-- <div class="elementor-element elementor-element-ff46e1c e-con-full e-flex e-con e-child" data-id="ff46e1c" data-element_type="container">
+    <div class="elementor-element elementor-element-4016061 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="4016061" data-element_type="widget" data-widget_type="image.default">
+        <div class="elementor-widget-container">
+            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x4f8a0ec4a3c07ede712358bab2413dd881e1bc44?t=1730559099026">
+                <img decoding="async" width="195" height="195" src="./index-files/TwitterX.jpg" class="elementor-animation-pulse attachment-large size-large wp-image-639" alt="" sizes="(max-width: 195px) 100vw, 195px">
+            </a>
+        </div>
     </div>
+    <div class="elementor-element elementor-element-1431f15 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="1431f15" data-element_type="widget" data-widget_type="image.default">
+        <div class="elementor-widget-container">
+            <a href="https://x.com/PeanutCoinErc">
+                <img loading="lazy" decoding="async" width="800" height="800" src="./index-files/Dextools.jpg" class="elementor-animation-pulse attachment-large size-large wp-image-1127" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-79a42e5 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="79a42e5" data-element_type="widget" data-widget_type="image.default">
+        <div class="elementor-widget-container">
+            <a href="https://dexscreener.com/ethereum/0x4f8a0ec4a3c07ede712358bab2413dd881e1bc44">
+                <img loading="lazy" decoding="async" width="800" height="800" src="./index-files/Telegram.jpg" class="elementor-animation-pulse attachment-large size-large wp-image-1128" alt="">
+            </a>
+        </div>
+    </div>
+</div> -->
 </div>
     <script src="app.js"></script>
 </body>
